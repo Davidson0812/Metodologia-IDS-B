@@ -1,0 +1,84 @@
+﻿Nombre Completo: González Lucero Jesús David
+Materia: Metodología de la Programación 
+Actividad: Investigación y desarrollo de un Pseudocódigo
+
+
+1. Investigación 
+
+
+1. ¿Qué es un pseudocódigo? 
+Un pseudocódigo se puede definir como una representación informal, que sirve para representar de una manera abstracta y simple los pasos que un algoritmo debe de seguir. Se escribe en lenguaje natural, es decir no está escrito en algún lenguaje de programación y por lo tanto no sigue una sintaxis estricta en particular, sino más bien se basa en la lógica, con la cual se deben de ejecutar los pasos del algoritmo y en estructuras básicas de programación.
+Está diseñado para que cualquier persona, independientemente de su nivel de conocimiento técnico, pueda entender el proceso lógico detrás de la solución a un problema. Es comúnmente utilizado en la fase de diseño de software, ya que permite visualizar de forma clara el flujo del programa antes de implementarlo en un lenguaje de programación real. 
+
+
+2. ¿Para qué se utiliza? 
+Como se mencionó anteriormente un pseudocódigo sirve en sí para estructurar los pasos a seguir del algoritmo en lenguaje natural (con ciertas bases de programación) y representarlos de una manera sencilla e informal. El pseudocódigo se utiliza para planificar y representar la solución de un problema antes de escribir el código. Permite describir de manera clara y ordenada los pasos que debe seguir un programa, sin depender de un lenguaje de programación específico, por tanto esta herramienta sirve para diversos aspectos como lo son:
+-Diseñar algoritmos: En pseudocódigo ayuda a describir y estructurar los pasos de un algoritmo  sin complicarse con reglas estrictas de sintaxis 
+-Enseñar lógica de programación: El pseudocódigo es básico para el aprendizaje de programación. ya que se basa en resolver problemas sin la necesidad de aprender directamente una sintaxis exacta, por lo cual facilita el aprender la lógica general de los lenguajes.
+-Facilitar el paso a código real: Tener los algoritmos de un programa en pseudocódigo facilita mucho su transcripción a código real. Ya tiene comandos y flujos parecidos a lo que podría verse en un script por lo que está a medio camino entre la idea del programador y el producto definitivo. 
+
+
+3. ¿Qué relación existe entre el algoritmo y el pseudocódigo? 
+El algoritmo como ya se ha mencionado anteriormente se trata de secuencia lógica de pasos ordenados que tienen como fin resolver un problema específico, es un concepto que puede existir de manera independiente a como se escriba a represente, por otro lado el pseudocódigo es la manera escrita de representar dicho algoritmo con cierta lógica de programación. Entonces y por así decirlo el algoritmo es como la idea de la secuencia ordenada de pasos a seguir, mientras que el pseudocódigo es la herramienta para poder expresarlo.
+
+
+4. ¿Cuáles son las principales características de un  pseudocódigo? 
+-Sencillez: un pseudocódigo usa un lenguaje fácil de entender. No es necesario ser un experto en programación para escribirlo o leerlo.
+-Flexibilidad: se pueden usar palabras que mejor se adapten a lo que quieres hacer, no hay una única manera correcta de escribir pseudocódigo. Además, se adapta a distintos lenguajes.
+-Claridad: los pasos están bien definidos, sin espacio a malentendidos. Si alguien lee tu pseudocódigo, sabrá exactamente qué va a hacer el programa. Es como una receta bien escrita.
+-Organización: al escribirlo, puedes organizar tus pensamientos y ver si hay algún paso que no tiene sentido o que se podría mejorar antes de pasar a un código más complejo.
+-Gestión local: al no ser ejecutable, no necesita alojarse en línea. Puedes simplemente escribirlo en un archivo o incluso a mano.
+-Utiliza palabras y estructuras sencilla (Inicio, Fin, Mientras, SI, etc)
+ 
+5. ¿Qué ventajas tiene desarrollar un pseudocódigo antes de empezar a programar?
+-Organiza las ideas: Permite ordenar paso a paso lo que debe hacer el programa antes de escribir el código.
+-Facilita la comprensión: Ayuda a entender mejor el problema y encontrar una solución de manera sencilla.
+-Detecta errores: Permite identificar errores en la lógica del algoritmo antes de comenzar a programar.
+-Ahorra tiempo: Al tener el procedimiento definido, escribir el código resulta más rápido y sencillo.
+-Facilita la traducción a un lenguaje: El pseudocódigo puede convertirse fácilmente en código de lenguajes como Python, C o Java.
+ 
+
+
+
+
+     2. Problema Seleccionado
+1. Problema seleccionado: Determinar si un estudiante aprobó o reprobó de acuerdo con su calificación, en un rango de 0 a 10.
+2. Entrada: Calificación del estudiante
+3. Proceso: Comparar la calificación registrada para saber si supera o es igual el mínimo aprobatorio que es 6.
+-Validación de datos: Usar Repetir, HastaQue se introduzca una calificación válida.
+-Evaluación de aprobación: Una estructura de Si, donde si es mayor o igual a 6 aprobó, y si es menor que 6 reprobó.
+4. Salida:  “Ingrese la Calificación del estudiante (0 a 10)”, "Calificación invalida, debe de estar entre 0 y 10. Intente de nuevo", “Calificación capturada” y mensaje de"Aprobó " o"Reprobó ",  “Proceso Finalizado”
+
+
+3. Pseudocódigo
+INICIO 
+Algoritmo Estudiante
+Definir Calificación como Real 
+Repetir
+Escribir "Ingrese la Calificación del estudiante (0  a 10)"
+Leer Calificación
+Si Calificación < 0 o Calificación > 10 
+Entonces
+ Escribir "Calificación invalida, debe de estar entre 0 y 10. Intente de nuevo"
+ FinSi 
+ HastaQue Calificación >=0 Y Calificación <=10
+
+
+Si Calificación >=6  Entonces
+   Escribir "La calificación capturada es ", Calificación 
+   Escribir "El estudiante aprobó"
+SiNo 
+ Escribir "La calificación capturada es ", Calificación
+ Escribir"El estudiante reprobó"
+FinSi
+Mostrar "Proceso Finalizado"
+FinAlgoritmo
+FIN
+ 
+
+
+
+
+Referencias
+Profile. (2025, 6 de mayo). ¿Qué es el pseudocódigo y por qué es clave en el desarrollo de software? https://profile.es/blog/que-es-el-pseudocodigo/
+UNIR. (2025, 19 de noviembre). ¿Qué es el pseudocódigo y por qué es tan importante aprenderlo? https://peru.unir.net/revista/ingenieria/pseudocodigo/

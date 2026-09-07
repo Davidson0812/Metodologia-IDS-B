@@ -1,0 +1,55 @@
+﻿Algoritmo mi_Estacionamiento
+
+
+    Definir espacios_disponibles Como Entero
+    Definir matricula Como Entero
+    Definir matricula_base Como Entero
+    Definir control Como Entero
+    Definir encontrada Como Logico
+
+
+    Dimension matricula[3]
+
+
+    matricula[1] <- 1234
+    matricula[2] <- 2345
+    matricula[3] <- 3456
+
+
+    espacios_disponibles <- 10
+    encontrada <- Falso
+
+
+    Escribir "Ingresa el número de matrícula:"
+    Leer matricula_base
+
+
+    Para control <- 1 Hasta 3 Hacer
+
+
+        Si matricula_base = matricula[control] Entonces
+
+
+            encontrada = Verdadero
+
+
+            Si espacios_disponibles > 0 Entonces
+                Escribir "¡Bienvenido!"
+                espacios_disponibles = espacios_disponibles - 1
+            SiNo
+                Escribir "Lo sentimos, no hay espacios disponibles"
+            FinSi
+
+
+        FinSi
+
+
+    FinPara
+
+
+    Si encontrada = Falso Entonces
+        Escribir "Lo sentimos, su matrícula no está registrada"
+    FinSi
+
+
+FinAlgoritmo
